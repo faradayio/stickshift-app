@@ -49,7 +49,7 @@ $('mysql-connect').onclick = function(e) {
         if (err) { return showError(err); }
         closeConfigPage();
         Stickshift(document.getElementById('page'), {
-          mapboxToken: 'pk.eyJ1IjoidG1jdyIsImEiOiJIZmRUQjRBIn0.lRARalfaGHnPdRcc-7QZYQ',
+          mapboxToken: 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ',
           endpoint: client.query
         });
     });
@@ -62,7 +62,7 @@ $('pg-connect').onclick = function(e) {
         if (err) { return showError(err); }
         closeConfigPage();
         Stickshift(document.getElementById('page'), {
-          mapboxToken: 'pk.eyJ1IjoidG1jdyIsImEiOiJIZmRUQjRBIn0.lRARalfaGHnPdRcc-7QZYQ',
+          mapboxToken: 'pk.eyJ1IjoiZmFyYWRheTIiLCJhIjoiTUVHbDl5OCJ9.buFaqIdaIM3iXr1BOYKpsQ',
           endpoint: client.query
         });
     });

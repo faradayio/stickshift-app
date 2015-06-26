@@ -1,6 +1,6 @@
 {
   "name": "stickshift-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "mysql": "^2.6.2",
     "pg": "^4.3.0",
-    "stickshift": "1.5.1"
+    "stickshift": "git@github.com:faradayio/stickshift.git#master"
   },
   "devDependencies": {
     "atom-shell": "^0.22.3-1",

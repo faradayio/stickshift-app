@@ -12,7 +12,7 @@
   "dependencies": {
     "mysql": "^2.6.2",
     "pg": "^4.3.0",
-    "stickshift": "git://github.com/faradayio/stickshift.git#master"
+    "stickshift": "faradayio/stickshift"
   },
   "devDependencies": {
     "atom-shell": "^0.22.3-1",
